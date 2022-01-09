@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    background-size: cover;
+}
+
+body::before {
+    content: "";
+      background-image: url('quote-bg.jpg');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.4;
+}
+
+.main-container {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 30px;
+    background-color: rgba(77, 45, 82, 0.3);
+    box-shadow: 0 0 5px 2px #1D1A31;
+    text-align: center;
+    color: #1D1A31 
+}
+
+.fa-quote-left {
+    font-size: 3.5rem;
+}
+
+#quote {
+    font-size: 2.0rem;
+    font-weight: 700;
+}
+
+.quote-author {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin: 1rem 0 3rem 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.twitter-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #4D2D52;
+}
+
+#new-quote {
+    border: none;
+    border-radius: 5px;
+    background-color: #f0b28c;
+    font-size: 1.2rem;
+    box-shadow: 1px 1px 0 1px #1D1A31;
+}
+
+#new-quote:hover {
+    transform: scale(1.2);
+}
+
+.twitter-btn:hover {
+    cursor: pointer;
+    color: #1E9BEF;
+    transform: scale(1.5);
+}
+
+.twitter-btn:hover, #new-quote:hover {
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.spinning-loader {
+    border: 16px solid #4D2D52;
+    border-top: 16px solid #333; 
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
