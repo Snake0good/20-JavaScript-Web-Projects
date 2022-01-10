@@ -7,9 +7,9 @@ A link to the website I'll be following - https://academy.zerotomastery.io/p/jav
 Here is the list I'll be doing. 
 
 ✅ - Finished Projects
-- Quote Generator - Fetch, Async/Await, Quote API, CORS
+1. Quote Generator - Fetch, Async/Await, Quote API, CORS
   - this was okay. the API was fun to use and I got the hang of it. Haven't fully figured out the loader yet :/
-- Infinite Scroll - Fetch, Async/Await, Unsplash API, DOM, Scroll Event Listener
+2. Infinite Scroll - Fetch, Async/Await, Unsplash API, DOM, Scroll Event Listener
   - better luck today - got the loader working... basic, but moving on up
 
 
