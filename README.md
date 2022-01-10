@@ -9,6 +9,9 @@ Here is the list I'll be doing.
 ✅ - Finished Projects
 - Quote Generator - Fetch, Async/Await, Quote API, CORS
   - this was okay. the API was fun to use and I got the hang of it. Haven't fully figured out the loader yet :/
+- Infinite Scroll - Fetch, Async/Await, Unsplash API, DOM, Scroll Event Listener
+  - better luck today - got the loader working... basic, but moving on up
+
 
 
 ❌ = yet to be completed
@@ -17,7 +20,6 @@ Here is the list I'll be doing.
 - Bookmarks App - DOM, localStorage
 - NASA APOD - Fetch, Async/Await, NASA API, DOM, localStorage
 - Animated Navigation - CSS Animations
-- Infinite Scroll - Fetch, Async/Await, Unsplash API, DOM, Scroll Event Listener
 - Countdown App - Date, localStorage
 - Music Player - HTML 5 Audio API
 - Calculator - Math Methods
