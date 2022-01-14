@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <link rel="icon" href="chlo.png">
+    <title>Light Dark Mode Switch</title>
+</head>
+<body>
+    <!-- Navigation Links -->
+    <nav>
+        <ul id="nav-menus">
+            <li><a href="#hello-guangzhou">hello</a></li>
+            <li><a href="#quick-look">GZ</a></li>
+            <li><a href="#event">events</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+        <ul id="theme-switch-wrapper">
+            <i class="fas fa-sun"></i>
+            <label class="theme-switch">
+                <input type="checkbox" />
+                <span class="slider round"></span>
+            </label>
+        </ul>
+    </nav>
+
+    <!-- Hello Zhongshan Section -->
+    <section id="hello-guangzhou">
+        <div class="title-group">
+            <h1>Hello Guangzhou</h1>
+            <h2>你好广州</h2>
+        </div>
+    </section>
+
+    <!-- Quick Look Section -->
+    <section id="quick-look">
+        <h1>Guangzhou is...</h1>
+        <div class="about-container">
+            <div class="image-container">
+                <a><img src="img/img1-light.jpg" alt="zhongshan-pic" id="zhongshan1" /></a>
+            </div>
+            <div class="image-container">
+                <a><img src="img/img2-light.jpg" alt="zhongshan-pic" id="zhongshan2" /></a>
+            </div>
+            <div class="image-container">
+                <a><img src="img/img3-light.jpg" alt="zhongshan-pic" id="zhongshan3" /></a>
+            </div>
+            <div class="image-container">
+                <a><img src="img/img4-light.jpg" alt="zhongshan-pic" id="zhongshan3" /></a>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="event">
+        <h1>Day Trips</h1>
+        <div class="event-container">
+                <div class="event-img-wrapper">
+                <img
+                    class="event-img"
+                    src="https://images.unsplash.com/photo-1613939887052-a9b6bcaaea89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"/>
+                </div>
+                <div class="event-content">
+                <h2 class="event-title">A Day with Sun Zhongshan 孙中山</h2>
+                <p class="event-descript">
+                    Sun Zhongshan was a Chinese statesman, physician, and political philosopher, who served as the provisional first president of the Republic of China and the first leader of the Kuomintang (Nationalist Party of China). He is called the "Father of the Nation" in the Republic of China, and the "Forerunner of the Revolution" in the People's Republic of China for his instrumental role in the overthrow of the Qing dynasty during the Xinhai Revolution.
+                </p>
+                <div class="btn-group">
+                    <button class="primary">Details</button>
+                    <button class="outline" disabled>Fully Booked</button>
+                </div>
+            </div>
+        </div>
+        <div class="event-container">
+            <div class="event-img-wrapper">
+                <img
+                    class="event-img"
+                    src="https://images.unsplash.com/photo-1626776877184-84cadaef8d09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1508&q=80"/>
+                </div>
+                <div class="event-content">
+                <h2 class="event-title">"Best Food in the World" Tour</h2>
+                <p class="event-descript">
+                    A food tour involves walking around a neighborhood, going into shops and restaurants to try various foods, and hearing both about the foods themselves and how they fit into the city's culture.
+                </p>
+                <div class="btn-group">
+                    <button class="primary">Details</button
+                    ><button class="outline">Book Now</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact">
+            <h1>contact</h1>
+            <div id="contact-container">
+            <img src="img/contact-light.svg" />
+            <div id="social-icons">
+                <i class="fas fa-envelope-square"></i>
+                <i class="fas fa-phone-square-alt"></i>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Script -->
+    <script src="img/img-link.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
