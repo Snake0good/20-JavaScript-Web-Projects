@@ -11,7 +11,9 @@ Here is the list I'll be doing.
     - this was okay. the API was fun to use and I got the hang of it. Haven't fully figured out the loader yet :/
 2. Infinite Scroll - Fetch, Async/Await, Unsplash API, DOM, Scroll Event Listener
     - better luck today - got the loader working... basic, but moving on up
-3. Light/Dark Mode - DOM, localStorage
+3. Joke Teller - Fetch, Async/Await, Joke API, Text-to-Speech
+    - harder than I thought. basic but nice way build. gotta revisit it to refresh the concepts. 
+4. Light/Dark Mode - DOM, localStorage
     - spent about 4 hours playing with this guy. loved it. enjoyed the "bugs"
 
 
@@ -27,7 +29,6 @@ Here is the list I'll be doing.
 - Calculator - Math Methods
 - Splash Page - DOM Basics
 - Form Validation - DOM, Forms
-- Joke Teller - Fetch, Async/Await, Joke API, Text-to-Speech
 - Video Player - HTML 5 Video API
 - MS Paint Clone - Advanced HTML Canvas, localStorage
 - Pong Clone - Advanced HTML Canvas
