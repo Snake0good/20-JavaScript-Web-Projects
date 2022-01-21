@@ -1,0 +1,126 @@
+:root {
+    --background-color: #293241;
+    --sec-dark-color: #3d5a80;
+    --main-text-color: #e0fbfc;
+    --sec-text-color: #98c1d9;
+    --highlight-color: #ee6c4d;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: var(--background-color);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--main-text-color)
+}
+
+.social a {
+    color: var(--highlight-color);
+    font-size: 1.5rem;
+    margin: 1.5rem;
+}
+
+.social a:hover {
+    color: var(--sec-text-color);
+}
+
+.social p {
+    font-size: 0.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-container span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-container {
+    width: 250px;
+    height: 250px;
+    border: none;
+    background-color: var(--sec-dark-color);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.project-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 5px 2px var(--highlight-color);
+    transition: 0.4s all;
+}
+
+.project-container h4 {
+    margin: 10px 0 10px 0
+}
+
+.project-container a {
+    text-decoration: none;
+    color: var(--sec-text-color);
+    margin: 0;  
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    background-position: center center;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+video {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width: 590px) {
+    #title {
+        font-size: 1.5rem;
+    }
+    
+    .project-container {
+        width: 90%;
+        height: 400px;
+    }
+
+    img, video {
+        width: 90%;
+        height: 340px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .project-container {
+        width: 40%;
+        height: 400px;
+    }
+
+    img, video {
+        width: 90%;
+        height: 340px;
+    }
+}
