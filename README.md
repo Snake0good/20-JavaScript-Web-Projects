@@ -1,4 +1,4 @@
-# 20-JavaScript-Web-Projects
+# JavaScript-Web-Projects
 ZTM Academy's JS20 projects
 
 
