@@ -15,6 +15,10 @@ Here is the list I'll be doing.
     - harder than I thought. basic but nice way build. gotta revisit it to refresh the concepts. 
 4. Light/Dark Mode - DOM, localStorage
     - spent about 4 hours playing with this guy. loved it. enjoyed the "bugs"
+5. Infinite Scroll (x2) - 
+    - went back to this one, and made it with an UnSplash API instead of a text heavy quote API
+6. Animated Navigation - CSS Animations
+    - AOS.js and Tailwind was the focus here. So much possibility with these. 
 
 
 
@@ -23,7 +27,6 @@ Here is the list I'll be doing.
 - Picture-in-Picture - Picture-in-Picture API, Screen Capture API
 - Bookmarks App - DOM, localStorage
 - NASA APOD - Fetch, Async/Await, NASA API, DOM, localStorage
-- Animated Navigation - CSS Animations
 - Countdown App - Date, localStorage
 - Music Player - HTML 5 Audio API
 - Calculator - Math Methods
