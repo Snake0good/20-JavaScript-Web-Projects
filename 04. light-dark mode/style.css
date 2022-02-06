@@ -195,16 +195,6 @@ h2 {
   height: fit-content;
 }
 
-#hello-guangzhou .photo-author {
-  display: block;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  font-size: 20px;
-  font-family: monospace;
-  background: rgb(255 255 255 / 50%);
-}
-
 /*  quick-look section  */
 #quick-look {
   color: var(--on-background);
@@ -359,4 +349,79 @@ button:hover:not(.outline) {
 .outline:hover {
   background: var(--primary-color);
   color: var(--on-primary);
+}
+
+
+
+@media only screen and (max-width: 500px) {
+  body {
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  #hello-guangzhou {
+    width: 100vw;
+  }
+
+  #event, #contact {
+    width: 100vw;
+  }
+
+  nav li a {
+    font-size: 0.8rem;
+  }
+  
+  #theme-switch-wrapper .fas {
+    font-size: 1rem;
+  }
+  
+  /* Dark mode toggle switch */
+  .theme-switch {
+    width: 30px;
+    height: 15px;
+  }
+  
+  .slider:before {
+    height: 12px;
+    width: 12px;
+    left: 3px;
+    bottom: 2px;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(13px);
+    -ms-transform: translateX(13px);
+    transform: translateX(13px);
+  }
+ 
+  #hello-guangzhou h1 {
+    font-size: 3.5rem;
+  }
+
+  #quick-look img {
+    width: 90vw;
+    padding: 0;
+  }
+
+  .about-container {
+    justify-content: left;
+  }
+
+  #quick-look {
+    width: 100vw;
+  }
+
+  
+  #quick-look img:hover {
+    transform: scale(1.05);
+  }
+
+  #contact h1 {
+    font-size: 2.5rem;
+  }
+
+  #contact-container img {
+    width: 70vw;
+  }
+
 }
